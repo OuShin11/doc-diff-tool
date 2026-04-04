@@ -48,7 +48,7 @@ This project provides an end-to-end solution for document comparison:
 ## 📁 Project Structure
 
 ```bash
-doc_diff_app/
+doc-diff-tool/
 ├─ app/                # Backend (FastAPI)
 │  ├─ main.py
 │  ├─ routers/         # API routes
