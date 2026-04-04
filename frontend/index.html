@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Diff Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Document Diff Tool</h1>
+
+    <div class="upload-box">
+      <label for="oldFile">Old PDF</label>
+      <input type="file" id="oldFile" accept=".pdf" />
+
+      <label for="newFile">New PDF</label>
+      <input type="file" id="newFile" accept=".pdf" />
+
+      <button id="compareBtn" type="button">Compare</button>
+    </div>
+
+    <div id="status"></div>
+
+    <div id="summary" class="card hidden">
+      <h2>Result Summary</h2>
+      <p id="diffCount"></p>
+      <a id="csvLink" href="#" download>Download CSV</a>
+    </div>
+
+    <div id="imagesSection" class="hidden">
+      <h2>Highlighted Pages</h2>
+
+      <h3>Before</h3>
+      <div id="beforeImages" class="image-grid"></div>
+
+      <h3>After</h3>
+      <div id="afterImages" class="image-grid"></div>
+    </div>
+  </div>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
