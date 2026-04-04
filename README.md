@@ -141,3 +141,5 @@ Response
 
 ## 📝 Author
 - CHEN WANG
+- Applied Mathematics & Modeling @ Meiji University
+- LinkedIn: www.linkedin.com/in/chen-wang-83148b354
