@@ -21,6 +21,19 @@ This project provides an end-to-end solution for document comparison:
 
 ## 🖥 Demo Features
 
+### Diff Result
+<p align="center">
+  <img src="./outputs/highlight/4d84a7dd-efd7-422c-a233-a1a01a936409_p001_before.png" width="300">
+  <img src="./outputs/highlight/4d84a7dd-efd7-422c-a233-a1a01a936409_p002_before.png" width="300">
+</p>
+<p align="center">Before</p>
+
+<p align="center">
+  <img src="./outputs/highlight/1dabd930-61c6-476e-971b-5cbbad263133_p001_after.png" width="300">
+  <img src="./outputs/highlight/1dabd930-61c6-476e-971b-5cbbad263133_p002_after.png" width="300">
+</p>
+<p align="center">After</p>
+
 - 📂 Upload two PDF files
 - 🔍 Detect inserted / deleted / modified text
 - 🖼 Visualize differences with highlighted images
